@@ -2,12 +2,12 @@
 ---
 containers:
 
-  - name: Appium
+  - name: appium
     category: Application
-    icon: appium
-    image: aluedeke/appium-android
+    icon: nodejs
+    image: jruffing/appium-server
     ports:
-      - 4723
+      - 5000
     repository:
       url: https://github.com/appium/appium.git
 
