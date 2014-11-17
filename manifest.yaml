@@ -8,6 +8,8 @@ containers:
     image: aluedeke/appium-android
     ports:
       - 4723
+    repository:
+      url: https://github.com/appium/appium.git
 
   - name: mongodb_data
     image: aweber/mongodata
