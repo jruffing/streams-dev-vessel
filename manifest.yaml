@@ -7,7 +7,8 @@ containers:
     icon: nodejs
     image: jruffing/appium-server
     ports:
-      - 4723
+      - guest: 4723
+        host: 4723
     volumes:
       - /var/lib/appium
     repository:
