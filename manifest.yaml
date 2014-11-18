@@ -5,7 +5,7 @@ containers:
   - name: appium
     category: Application
     icon: nodejs
-    image: jruffing/appium-server
+    image: jruffing/appium-server:latest
     ports:
       - 5000
     repository:
